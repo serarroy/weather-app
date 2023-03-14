@@ -12,7 +12,7 @@ function App() {
   const [city, setCity] = useState('Paris')
   const [bg, setBg] = useState(hotBg);
 
-  const API_KEY = '93659dc588fd4a34967173225231003 '
+  
 
   useEffect(() => {  
     const fetchWeatherData = async (city) => {
